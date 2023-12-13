@@ -43,9 +43,6 @@
     background: url(../images/background/2.jpg) fixed;
 }
 
-#section-experiences {
-    background: url(../images/background/3.jpg) fixed;
-}
 
 #section-contact {
     background: url(../images/background/4.jpg) fixed;
@@ -55,17 +52,10 @@
     background: url(../images/background/5a.jpg) fixed;
 }
 
-#section-experiences.index-2 {
-    background: url(../images/background/5b.jpg) fixed;
-}
-
 #section-services.index-4 {
     background: url(../images/background/6a.jpg) fixed;
 }
 
-#section-experiences.index-4 {
-    background: url(../images/background/6b.jpg) fixed;
-}
 
 #section-testimonial.index-4 {
     background: url(../images/background/6c.jpg) fixed;
@@ -79,9 +69,6 @@
     background: url(../images/background/7a.jpg) fixed;
 }
 
-#section-experiences.index-5 {
-    background: url(../images/background/7b.jpg) fixed;
-}
 
 #section-services.index-6 {
     background: url(../images/background/8.jpg) fixed;
@@ -89,10 +76,6 @@
 
 #section-services.index-7 {
     background: url(../images/background/11.jpg) fixed;
-}
-
-#section-experiences.index-6 {
-    background: url(../images/background/8.jpg) fixed;
 }
 
 #section-contact.index-6 {
@@ -103,6 +86,10 @@
     background: url(../images/background/s1.jpg);
 }
 
+.social-section {
+    background: url(../images/background/communityGiveback.jpeg) fixed;
+}
+
 body.custom-bg-1 {
     background: none;
 }
@@ -111,6 +98,7 @@ body.custom-bg-1 {
     background: url(../images/background/s2.jpg);
 }
 
+/* 
 section {
     -moz-background-size: cover;
     -webkit-background-size: cover;
@@ -118,7 +106,7 @@ section {
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
-}
+} */
 
 /* media query */
 
