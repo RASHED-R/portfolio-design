@@ -223,6 +223,7 @@
 
         var header = $('header');
         header.removeClass('smaller');
+        header.removeClass('sticky');
         header.removeClass('logo-smaller');
         header.removeClass('clone');
 
@@ -841,9 +842,12 @@
                     header = jQuery("header");
                 if (distanceY > shrinkOn) {
                     header.addClass("smaller");
+
+
                 } else {
                     if (header.hasClass('smaller')) {
                         header.removeClass('smaller');
+
                     }
                 }
             }
@@ -1242,20 +1246,20 @@
                 jQuery(this).find(".image-container").css("height", jQuery(this).find(".image-container").parent().css("height"));
             });
             /* go to anchor */
-            jQuery('#mainmenu li a').each(function () {
-                var cur = jQuery(this);
-                if (this.href.indexOf('#') != -1) {
-                    var href = jQuery(this).attr('href');
-                    if (jQuery(window).scrollTop() > jQuery(href).offset().top - 140) {
-                        clearTimeout($.data(this, "scrollCheck"));
-                        $.data(this, "scrollCheck", setTimeout(function () {
-                            jQuery('#mainmenu li a').removeClass('active');
-                            cur.addClass('active');
-                        }, 250));
+            // jQuery('#mainmenu li a').each(function () {
+            //     var cur = jQuery(this);
+            //     if (this.href.indexOf('#') != -1) {
+            //         var href = jQuery(this).attr('href');
+            //         if (jQuery(window).scrollTop() > jQuery(href).offset().top - 140) {
+            //             clearTimeout($.data(this, "scrollCheck"));
+            //             $.data(this, "scrollCheck", setTimeout(function () {
+            //                 jQuery('#mainmenu li a').removeClass('active');
+            //                 cur.addClass('active');
+            //             }, 250));
 
-                    }
-                }
-            });
+            //         }
+            //     }
+            // });
 
 
 

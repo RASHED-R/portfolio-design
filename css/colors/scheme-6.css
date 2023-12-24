@@ -1,4 +1,4 @@
-/* default color: #FF5757  */
+/* default color: #4767BD  */
 
 .bg-color,
 section.bg-color,
@@ -64,7 +64,7 @@ span.overlay,
 .de_tab.tab_style_4 .de_nav li.active,
 #preloader .s1 span,
 header.smaller #mainmenu a span {
-    background-color: #FF5757;
+    background-color: #4767BD;
 }
 
 .feature-box i,
@@ -127,7 +127,7 @@ h2.hs1 span,
 .countdown-s3 .countdown-period,
 .countdown-s4 .countdown-period,
 .social-icons i:hover {
-    color: #FF5757;
+    color: #4767BD;
 }
 
 .feature-box i,
@@ -158,7 +158,7 @@ a.btn-line.hover,
 .de_tab.tab_style_4 .de_nav,
 .exp-box h5,
 .social-icons i:hover {
-    border-color: #FF5757;
+    border-color: #4767BD;
 }
 
 .box-fx .inner,
@@ -177,37 +177,37 @@ a.btn-line.hover,
 .form-underline textarea:focus,
 .form-underline input[type=email]:focus,
 .form-underline select:focus {
-    border-bottom-color: #FF5757;
+    border-bottom-color: #4767BD;
 }
 
 .arrow-down,
 .preloader1 {
-    border-top-color: #FF5757;
+    border-top-color: #4767BD;
 }
 
 .callbacks_nav {
-    background-color: #FF5757;
+    background-color: #4767BD;
 }
 
 .de_tab .de_nav li span {
-    border-top: 3px solid #FF5757;
+    border-top: 3px solid #4767BD;
 }
 
 .feature-box-big-icon i:after {
-    border-color: #FF5757 transparent;
+    border-color: #4767BD transparent;
     /*same colour as the lower of the bubble's gradient*/
 }
 
 .de_review li.active img {
-    border: solid 4px #FF5757;
+    border: solid 4px #4767BD;
 }
 
 .de_tab.tab_style_4 .de_nav li {
-    border-right-color: #FF5757;
+    border-right-color: #4767BD;
 }
 
 blockquote {
-    border-left-color: #FF5757;
+    border-left-color: #4767BD;
 }
 
 span.overlay,

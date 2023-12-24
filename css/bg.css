@@ -39,44 +39,11 @@
     background: url(../images/background/12.jpg) fixed;
 }
 
-#section-services {
-    background: url(../images/background/2.jpg) fixed;
-}
-
-
-#section-contact {
-    background: url(../images/background/4.jpg) fixed;
-}
-
-#section-services.index-2 {
-    background: url(../images/background/5a.jpg) fixed;
-}
-
-#section-services.index-4 {
-    background: url(../images/background/6a.jpg) fixed;
-}
-
-
-#section-testimonial.index-4 {
-    background: url(../images/background/6c.jpg) fixed;
-}
 
 #section-testimonial.index-8 {
     background: url(../images/background/13.jpg) fixed;
 }
 
-#section-services.index-5 {
-    background: url(../images/background/7a.jpg) fixed;
-}
-
-
-#section-services.index-6 {
-    background: url(../images/background/8.jpg) fixed;
-}
-
-#section-services.index-7 {
-    background: url(../images/background/11.jpg) fixed;
-}
 
 #section-contact.index-6 {
     background: url(../images/background/8.jpg) fixed;
